@@ -1,0 +1,41 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}   
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+}
+
+header {
+    height: 10vh;
+}
+
+main {
+    height: 90vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a.active {
+    border-bottom: 3px solid rgb(0, 114, 126);
+    font-weight: 800;
+}
+
+.service-card {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.pricing {
+  background-color: rgb(0, 3, 2);
+}
+
+.box {
+  background-color:  #111111;
+  backdrop-filter:  blur(10px);
+}
